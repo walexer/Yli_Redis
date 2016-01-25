@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Yli_Redis>
+            <version>0.1.0</version>
+        </Yli_Redis>
+    </modules>
+    <global>
+    	<helpers>
+		<redis>
+			<class>Yli_Redis_Helper</class>
+		</redis>
+        </helpers>
+    </global>
+    <default>
+    	<system>
+    		<redis>
+    			<port>6379</port>
+    			<database>0</database>
+    		</redis>
+    	</system>
+    </default>
+</config>

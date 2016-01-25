@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<config>
+    <sections>
+        <system>
+            <groups>
+                <redis translate="label">
+                    <label>Redis Settings</label>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <sort_order>550</sort_order>
+                    <fields>
+                        <server translate="label">
+                            <label>Server</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>1</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </server>
+                        <port translate="label">
+                            <label>Port</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </port>
+                        <database translate="label">
+                            <label>Database</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>2</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </database>
+                    </fields>
+                </redis>
+            </groups>
+        </system>
+    </sections>
+</config>
